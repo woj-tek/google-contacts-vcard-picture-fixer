@@ -27,8 +27,6 @@ public class PhotoFixer {
 
 		setupLogger();
 		final PhotoFixer photoFixer = new PhotoFixer();
-		photoFixer.fixContacts("/Users/wojtek/Downloads/_calendar_contacts_20199408/single/karol.vcf");
-		System.exit(0);
 
 		switch (args.length) {
 			case 1:
